@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.leaflet-container {
+  height: 100%;
+}
+
+.Plot {
+  width: 100%;
+  aspect-ratio: 1.75;
+  max-height: 95%;
+  // width: "auto";
+}
