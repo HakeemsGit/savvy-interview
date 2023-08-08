@@ -1,5 +1,5 @@
 import * as React from "react";
-import destinations from "./destinations.json";
+import destinations from "../datasets/destinations.json";
 
 export interface DestinationProps extends React.ComponentProps<"select"> {}
 

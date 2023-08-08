@@ -1,8 +1,8 @@
 import { Marker } from "react-simple-maps";
 import "react-simple-maps/dist";
-import Destination from "./Destination";
-import Plot from "./Plot";
-import airports from "./airports.json";
+import Destination from "./components/Destination";
+import Plot from "./components/Plot";
+import airports from "./datasets/airports.json";
 import "./index.scss";
 
 console.clear();
